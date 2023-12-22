@@ -1,8 +1,4 @@
-//your JS code here. If required.
-const btn=document.getElementById('enterBtn');
-btn.addEventListener('click',function enterMetavese() {
-	const element=document.getElementById("status");
-	
-	element.innerText="Entered Metaverse";
-	element.outerHTML=element.outerHTML.replace(/p/g,"h1");
-})
+const enterBtn = document.getElementById("enterBtn");
+enterBtn.addEventListener("click", function () {
+  document.getElementById("status").innerHTML = "<h1>Entered Metaverse</h1>";
+});
